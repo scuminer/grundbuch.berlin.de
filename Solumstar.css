@@ -1,0 +1,376 @@
+td#header {
+  font: bold 18pt helvetica, sans-serif;
+  color: #000;
+  background: #8cc6c6;
+  padding: 1px;
+}
+
+td.Feld {
+  font: 12pt helvetica, sans-serif;
+  color: #000;
+  height: 25px;
+}
+
+td.Feldb {
+  font: bold 12pt helvetica, sans-serif;
+  color: #000;
+}
+
+td.Feldm {
+  font: helvetica, sans-serif;
+  color: #000;
+}
+
+span.bearbeiter {
+  font-size: 8pt;
+}
+
+span.bearbeiterNum {
+  font-size: 8pt;
+  color: #0a0;
+}
+
+table.left-panel {
+  border: none;
+  border-spacing: 0 0.5em;
+  background: #c6ffc6;
+  width: 100%;
+}
+
+/* td.leftPanel a { */
+/* 	color: black; */
+/* 	text-decoration: none; */
+/* } */
+table.left-panel a {
+  color: black;
+  text-decoration: none;
+}
+
+td.leftPanel {
+  width: 180px;
+  font: bold 12pt helvetica, sans-serif;
+  background: #c6ffc6;
+  vertical-align: top;
+}
+
+table.left-panel td {
+  width: 180px;
+  font: bold 12pt helvetica, sans-serif;
+}
+
+td.topPanel {
+  height: 130px;
+}
+
+p.title {
+  text-align: center;
+  background: #8cc6c6;
+}
+
+html,
+body,
+form {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font: 12pt helvetica, sans-serif;
+  background: white;
+}
+
+table.fullheight {
+  height: 100%;
+  width: 100%;
+  border-spacing: 1px;
+  border: 1px solid black;
+  font: 12pt helvetica, sans-serif;
+}
+
+table.fullheight td,
+table.fullheight th {
+  padding: 1px;
+}
+
+table.description {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  border: none;
+  background: #c6ffc6;
+}
+
+table.description td {
+  font: 12pt helvetica, sans-serif;
+  color: #000;
+  height: 35px;
+}
+
+table.description caption {
+  text-align: left;
+  font-weight: bold;
+  width: 100%;
+  background: #c6ffc6;
+}
+
+table.main-content {
+  background: white;
+  width: 100%;
+  border-spacing: 1px;
+}
+
+table.main-content p {
+  margin-bottom: 0;
+  padding: 0;
+}
+
+table.main-content td {
+  padding: 1px;
+}
+
+div.main-content {
+  background: white;
+  width: 100%;
+  border-spacing: 1px;
+}
+
+table.warning {
+  background: #ff8080;
+  border: none;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+div.warning {
+  background: #ff8080;
+  width: auto;
+  line-height: 140%;
+  padding-bottom: 0;
+  margin: 0 1px;
+}
+
+table.warning td {
+  font: 12pt helvetica, sans-serif;
+  color: #000;
+}
+
+.required:after {
+  content: "*";
+  color: red;
+}
+
+.footer-mandatory {
+  color: red;
+}
+
+legend {
+  color: black;
+}
+
+.missing-property {
+  background: pink;
+}
+
+span.inactive-link {
+  color: silver;
+}
+
+span.current-link {
+  color: #0a0;
+  font-style: italic;
+}
+
+table.gr-a {
+  border: none;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background: #c6ffc6;
+  width: 100%;
+}
+
+table.gr-b {
+  border: none;
+  border-spacing: 1px;
+  background: white;
+  width: 100%;
+}
+
+table.gr-b td {
+  padding: 1px;
+}
+
+table.top-part {
+  border: none;
+  border-spacing: 0;
+  background: white;
+  width: 100%;
+  margin: 1px;
+}
+
+table.top-part td {
+  padding: 1em 0;
+}
+
+div.welcome {
+  background-color: #c6ffc6;
+  line-height: 140%;
+  width: auto;
+  margin: 0 1px;
+  padding-top: 0;
+}
+
+table.button-layout {
+  border: none;
+  border-collapse: collapse;
+  background: white;
+  margin-top: 4em;
+  clear: left;
+}
+
+#pdfgen {
+  margin: 0 10em;
+}
+
+table.gr-f {
+  border: none;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+table.treffer {
+  border: none;
+  background: white;
+  width: 50%;
+  border-collapse: collapse;
+  border-spacing: 1px;
+}
+
+table.treffer td {
+  font-weight: bold;
+  height: 3em;
+}
+
+table.button-layout td {
+  padding-right: 1px;
+  padding-bottom: 5px;
+}
+
+div.error-message {
+  background: #ff8080;
+}
+
+img.logo {
+  margin: auto;
+}
+
+div.main-content p {
+  margin: 0;
+}
+
+div.main-content div.warning {
+  margin: 0;
+}
+
+.table-container {
+  width: 100%;
+  height: 57%;
+  overflow-y: auto;
+  _overflow: auto;
+  margin: 0 0 1em;
+}
+
+.TGrundakte {
+  border: 2px solid black;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.TVorgang {
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.TGrundakte th {
+  border: 2px solid black;
+}
+
+.THeaderCol0 {
+  width: 100px;
+}
+
+.THeaderCol1 {
+  width: 100px;
+}
+
+.THeaderCol2 {
+  width: 200px;
+}
+
+.THeaderCol3 {
+  width: 600px;
+}
+
+.THeaderCol4 {
+  width: 300px;
+}
+
+.THeaderCol5 {
+  width: 100px;
+}
+
+.TDDokument {
+  border: 1px solid grey;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 1235px;
+}
+
+.TDDokumentCol1 {
+  border: 1px solid grey;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.TDDokumentCol2 {
+  border: 1px solid grey;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.TDDokumentCol3 {
+  border: 1px solid grey;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.TDDokumentCol4 {
+  border: 1px solid grey;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.TDDokumentCol5 {
+  border: 1px solid grey;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.BlockVorgang {
+  border: 2px solid black;
+  vertical-align: top;
+}
+
+.TDVorgang {
+  border: 2px solid black;
+  vertical-align: top;
+}
+
+.TRAbgeschlossen {
+  border: 2px solid black;
+  background-color: #c6ffc6;
+}
+
+.TRSonstige {
+  background-color: #f6a9a9;
+}
